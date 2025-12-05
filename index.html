@@ -1,12 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Pablo | Front-end Developer</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <h1>Juan</h1>
     
+    <header class="hero-section" id="top">
+        <div class="hero-background-grid"></div>
+        <div class="hero-content">
+            <img src="imagens/Picsart_25-06-05_00-14-32-167.jpg" alt="Minha foto de perfil" class="profile-img animate-fade-in"> 
+            <h1 class="animate-slide-up">JUAN PABLO <span class="highlight">// FRONT-END</span></h1>
+            <p class="animate-slide-up">Construindo interfaces Front-end com paixão e performance. <br>Transformando conceitos em experiências digitais inovadoras.</p>
+        </div>
+        <a href="#sobre-mim" class="scroll-down-indicator animate-pulse">
+            <p>EXPLORAR</p>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <main class="main-content">
+        
+        <section id="sobre-mim" class="container glass-effect">
+            <h2 class="section-title">01 / Sobre Mim</h2>
+            <p class="section-description">Olá! Eu sou **Juan Pablo**. Minha jornada no desenvolvimento web é impulsionada pela busca constante por inovações e design intuitivo. Acredito que a tecnologia deve ser acessível e visualmente envolvente. Cada projeto é uma oportunidade de aprimorar minhas habilidades e entregar soluções que realmente se destacam.</p>
+            <p class="section-description">Sou apaixonado por criar experiências digitais que não apenas funcionam, mas encantam. Do conceito à implementação, busco a excelência em cada pixel.</p>
+        </section>
+
+        <section id="habilidades" class="container glass-effect">
+            <h2 class="section-title">02 / Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-item">HTML5 <i class="fab fa-html5"></i></div>
+                <div class="skill-item">CSS3 <i class="fab fa-css3-alt"></i></div>
+                <div class="skill-item">JavaScript <i class="fab fa-js"></i></div>
+                <div class="skill-item">PHP <i class="fab fa-php"></i></div>
+                <div class="skill-item">Design Responsivo <i class="fas fa-mobile-alt"></i></div>
+                <div class="skill-item">UI/UX Principles <i class="fas fa-drafting-compass"></i></div>
+                <div class="skill-item">Git & GitHub <i class="fab fa-github"></i></div>
+                <div class="skill-item">VS Code <i class="fas fa-code"></i></div>
+            </div>
+        </section>
+
+        <section id="trabalhos" class="container">
+            <h2 class="section-title">03 / Projetos em Destaque</h2>
+            
+            <div class="trabalho-card glass-effect">
+                <div class="project-image-wrapper">
+                    <img src="imagens/Oppenheimer_(cropped).jpg" alt="Imagem do Projeto Oppenheimer" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://demo.exemplo.com/oppenheimer" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/JuanPablo/Oppenheimer-Concept" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>ANÁLISE CONCEITUAL: O PROJETO OPPENHEIMER</h3>
+                    <p>Landing Page conceitual desenvolvida com **HTML e CSS puro**. O projeto foca em recontar a história de J. Robert Oppenheimer e o Projeto Manhattan, utilizando um tema sombrio e tipografia dramática para refletir o peso histórico dos eventos. Um exercício em storytelling visual e desenvolvimento Front-end.</p>
+                    <div class="project-tags">
+                        <span>#HTML5</span>
+                        <span>#CSS3</span>
+                        <span>#História</span>
+                        <span>#Conceitual</span>
+                        <span>#Oppenheimer</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trabalho-card glass-effect">
+                <div class="project-image-wrapper">
+                    <img src="imagens/api-app.jpg" alt="Imagem do Projeto App de Clima" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://demo.exemplo.com/weather-app" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/JuanPablo/Weather-API-Project" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>CONSULTA CLIMÁTICA: WEB APP COM API</h3>
+                    <p>Aplicativo Front-end que consome uma API externa. Desenvolvido com foco em **HTML e CSS** para o layout, demonstrando habilidades em design responsivo e acessibilidade visual. *Nota: A funcionalidade da API precisaria de JavaScript.*</p>
+                    <div class="project-tags">
+                        <span>#HTML</span>
+                        <span>#CSS</span>
+                        <span>#API(Conceito)</span>
+                        <span>#DesignResponsivo</span>
+                        <span>#Web</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trabalho-card glass-effect">
+                <div class="project-image-wrapper">
+                    <img src="imagens/desafios.jpg" alt="Imagem do Projeto de Entregas e Desafios" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://demo.exemplo.com/desafios-front" target="_blank" class="overlay-button">Ver Demo <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/JuanPablo/Atividades-e-Desafios" target="_blank" class="overlay-button">Ver Código <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>PORTFÓLIO DE ENTREGAS: ATIVIDADES E DESAFIOS</h3>
+                    <p>Coleção de pequenos projetos e desafios de codificação desenvolvidos para praticar e consolidar fundamentos de **HTML e CSS**. Demonstra a capacidade de aprender e aplicar novas técnicas de layout e estilo em cenários variados, focando em clean code e semântica.</p>
+                    <div class="project-tags">
+                        <span>#HTMLSemântico</span>
+                        <span>#CSSPuro</span>
+                        <span>#Prática</span>
+                        <span>#LayoutFlexbox</span>
+                        <span>#GridCSS</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contato" class="container glass-effect">
+            <h2 class="section-title">04 / Contato</h2>
+            <p class="section-description">Vamos criar algo extraordinário juntos? Se você tem um projeto em mente ou quer apenas trocar uma ideia, estou à disposição.</p>
+            
+            <div class="contact-links">
+                <a href="https://www.instagram.com/_gonzaga___/" target="_blank" class="social-link instagram-link">
+                    <i class="fab fa-instagram"></i> Meu Instagram
+                </a>
+                <a href="mailto:juanpablo.dev@outlook.com" class="social-link email-link">
+                    <i class="fas fa-envelope"></i> Enviar Email
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 JUAN PABLO. Built with passion and code. <a href="#top" class="back-to-top">Voltar ao Topo <i class="fas fa-arrow-up"></i></a></p>
+    </footer>
+
 </body>
 </html>
